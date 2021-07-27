@@ -40,9 +40,10 @@ a {
 }
 
 .content {
-    text-align: justify;
-    max-width:  1000px;
-    margin:     auto;
+    text-align:  justify;
+    max-width:   1000px;
+    margin:      auto;
+    line-height: 1.4;
 }
 
 .content img {
