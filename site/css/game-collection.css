@@ -1,0 +1,26 @@
+.entry {
+    width:            256px;
+    height:           384px;
+    display:          block;
+    float:            left;
+    margin:           0px 25px 50px 25px;
+}
+
+.entry img {
+    width:  256px;
+    height: 256px;
+}
+  
+.entry img:hover {
+    cursor: pointer;
+}
+.entry img.wip:hover {
+    cursor: auto;
+}
+  
+.container {
+    padding:    2px 16px;
+    margin:     none;
+    text-align: center;
+    font-size:  16px;
+}
