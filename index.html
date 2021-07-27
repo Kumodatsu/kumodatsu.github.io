@@ -1,62 +1,18 @@
 <!doctype HTML>
-<html>
+<html lang="en">
    <head>
-        <title>The Charculator</title>
-        <link rel="stylesheet" href="site/css/style.css">
+        <title>Peekaboo</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="site/css/main-style.css">
     </head>
     <body>
-        <div class="container centered">
-            <table>
-                <tr>
-                    <td>Power Level</td>
-                    <td>
-                        <select id="level" onchange="on_attrib_changed();">
-                            <option value="Novice">Novice</option>
-                            <option value="Apprentice">Apprentice</option>
-                            <option value="Adept">Adept</option>
-                            <option value="Expert">Expert</option>
-                            <option value="Master">Master</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Strength</td>
-                    <td><input type="number" min="5" max="24" id="str" class="attrib" onchange="on_attrib_changed();"/></td>
-                </tr>
-                <tr>
-                    <td>Dexterity</td>
-                    <td><input type="number" min="5" max="24" id="dex" class="attrib" onchange="on_attrib_changed();"/></td>
-                </tr>
-                <tr>
-                    <td>Constitution</td>
-                    <td><input type="number" min="5" max="24" id="con" class="attrib" onchange="on_attrib_changed();"/></td>
-                </tr>
-                <tr>
-                    <td>Intelligence</td>
-                    <td><input type="number" min="5" max="24" id="int" class="attrib" onchange="on_attrib_changed();"/></td>
-                </tr>
-                <tr>
-                    <td>Wisdom</td>
-                    <td><input type="number" min="5" max="24" id="wis" class="attrib" onchange="on_attrib_changed();"/></td>
-                </tr>
-                <tr>
-                    <td>Charisma</td>
-                    <td><input type="number" min="5" max="24" id="cha" class="attrib" onchange="on_attrib_changed();"/></td>
-                </tr>
-                <tr>
-                    <td>Health</td>
-                    <td><div id="hp">16</div></td>
-                </tr>
-                <tr>
-                    <td>Heal mod</td>
-                    <td><div id="healmod">+0</div></td>
-                </tr>
-                <tr>
-                    <td>Skill points</td>
-                    <td><div id="sp">20</div></td>
-                </tr>
-            </table>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="charculator.html">Charculator</a></li>
+                <li><a href="games.html">Games</a></li>
+            </ul>
+        </nav>
+        <p>Peekaboo.</p>
     </body>
-    <script src="site/scripts/stats.js"></script>
 </html>
