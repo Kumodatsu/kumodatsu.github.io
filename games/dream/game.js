@@ -1563,23 +1563,23 @@ __audio_init__(this, sd_straal, 'aud/zap.wav', '', '');
  * MUSICS
  ***********************************************************************/
 function __mus_amomenttomyself() { 
-__audio_init__(this, mus_amomenttomyself, '', 'aud/AMomenttoMyself.mp3', '');
+// __audio_init__(this, mus_amomenttomyself, '', 'aud/AMomenttoMyself.mp3', '');
 }; var mus_amomenttomyself = new __mus_amomenttomyself();
 
 function __mus_solstice() { 
-__audio_init__(this, mus_solstice, '', 'aud/Solstice.mp3', '');
+// __audio_init__(this, mus_solstice, '', 'aud/Solstice.mp3', '');
 }; var mus_solstice = new __mus_solstice();
 
 function __mus_valhalla() { 
-__audio_init__(this, mus_valhalla, '', 'aud/Valhalla.mp3', '');
+// __audio_init__(this, mus_valhalla, '', 'aud/Valhalla.mp3', '');
 }; var mus_valhalla = new __mus_valhalla();
 
 function __mus_terriblefate() { 
-__audio_init__(this, mus_terriblefate, '', 'aud/TerribleFate.mp3', '');
+// __audio_init__(this, mus_terriblefate, '', 'aud/TerribleFate.mp3', '');
 }; var mus_terriblefate = new __mus_terriblefate();
 
 function __mus_inthehouseinaheartbeat() { 
-__audio_init__(this, mus_inthehouseinaheartbeat, '', 'aud/InTheHouseInAHeartbeat.mp3', '');
+// __audio_init__(this, mus_inthehouseinaheartbeat, '', 'aud/InTheHouseInAHeartbeat.mp3', '');
 }; var mus_inthehouseinaheartbeat = new __mus_inthehouseinaheartbeat();
 
 
@@ -2745,7 +2745,7 @@ function __ob_music1() {
 __instance_init__(this, ob_music1, null, 1, 0, sp_collision, 1, 1725);
 this.on_creation = function() {
 with(this) {
-sound_loop(mus_amomenttomyself);
+// sound_loop(mus_amomenttomyself);
 }
 };
 this.on_destroy = on_destroy_i;
@@ -2762,8 +2762,8 @@ function __ob_music2() {
 __instance_init__(this, ob_music2, null, 1, 0, sp_collision, 1, 1726);
 this.on_creation = function() {
 with(this) {
-sound_stop(mus_amomenttomyself);
-sound_loop(mus_solstice);
+// sound_stop(mus_amomenttomyself);
+// sound_loop(mus_solstice);
 }
 };
 this.on_destroy = on_destroy_i;
@@ -2780,8 +2780,8 @@ function __ob_music3() {
 __instance_init__(this, ob_music3, null, 1, 0, sp_collision, 1, 1728);
 this.on_creation = function() {
 with(this) {
-sound_stop(mus_solstice);
-sound_loop(mus_valhalla);
+// sound_stop(mus_solstice);
+// sound_loop(mus_valhalla);
 }
 };
 this.on_destroy = on_destroy_i;
@@ -2798,8 +2798,8 @@ function __ob_music4() {
 __instance_init__(this, ob_music4, null, 1, 0, sp_collision, 1, 1729);
 this.on_creation = function() {
 with(this) {
-sound_stop(mus_valhalla);
-sound_loop(mus_terriblefate);
+// sound_stop(mus_valhalla);
+// sound_loop(mus_terriblefate);
 }
 };
 this.on_destroy = on_destroy_i;
@@ -2816,8 +2816,8 @@ function __ob_music5() {
 __instance_init__(this, ob_music5, null, 1, 0, sp_collision, 1, 1730);
 this.on_creation = function() {
 with(this) {
-sound_stop(mus_terriblefate);
-sound_loop(mus_inthehouseinaheartbeat);
+// sound_stop(mus_terriblefate);
+// sound_loop(mus_inthehouseinaheartbeat);
 }
 };
 this.on_destroy = on_destroy_i;
@@ -2844,7 +2844,7 @@ this.objects = [
 this.start = function() {
 __room_start__(this, sc_kopmenu, 660, 495, 30, 0, 0, 0, bg_menuutje.image, 0, 0, 0, 660, 495, null, 50, 50);
 
-sound_loop(mus_amomenttomyself);
+// sound_loop(mus_amomenttomyself);
 };
 }
 var sc_kopmenu = new __sc_kopmenu();
