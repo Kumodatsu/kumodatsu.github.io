@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { GamesListComponent } from './games-list/games-list.component';
+import { LinkButtonComponent } from './link-button/link-button.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { GamesListComponent } from './games-list/games-list.component';
     MainComponent,
     NavigationComponent,
     GamesListComponent,
+    LinkButtonComponent
   ],
   imports: [
     BrowserModule,
