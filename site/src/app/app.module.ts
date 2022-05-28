@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { GamesListComponent } from './games-list/games-list.component';
+import { HotelPluhzComponent } from './games/hotel-pluhz/hotel-pluhz.component';
 import { LinkButtonComponent } from './link-button/link-button.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { LinkButtonComponent } from './link-button/link-button.component';
     MainComponent,
     NavigationComponent,
     GamesListComponent,
+    HotelPluhzComponent,
     LinkButtonComponent
   ],
   imports: [
