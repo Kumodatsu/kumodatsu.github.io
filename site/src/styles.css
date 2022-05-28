@@ -13,6 +13,10 @@ body {
   line-height: 1.4;
 }
 
+.content h1 {
+  text-align: center;
+}
+
 .content img {
   width:        75%;
   display:      block;
