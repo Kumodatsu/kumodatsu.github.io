@@ -8,6 +8,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { GamesListComponent } from './games-list/games-list.component';
 import { HotelPluhzComponent } from './games/hotel-pluhz/hotel-pluhz.component';
 import { LinkButtonComponent } from './link-button/link-button.component';
+import { DonTetronolisTetrisComponent } from './games/don-tetronolis-tetris/don-tetronolis-tetris.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LinkButtonComponent } from './link-button/link-button.component';
     NavigationComponent,
     GamesListComponent,
     HotelPluhzComponent,
-    LinkButtonComponent
+    LinkButtonComponent,
+    DonTetronolisTetrisComponent
   ],
   imports: [
     BrowserModule,

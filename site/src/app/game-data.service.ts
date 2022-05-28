@@ -12,6 +12,7 @@ const gameData: GameData[] = [
     title:     "Don Tetronoli's Tetris",
     year:      2016,
     thumbnail: "/assets/game-thumbnails/tetris.png",
+    contentPath: "/games/don-tetronolis-tetris",
   },
   {
     title:     "Polly",
