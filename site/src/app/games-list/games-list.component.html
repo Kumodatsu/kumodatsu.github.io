@@ -1,6 +1,6 @@
 <div class="games-container">
   <div *ngFor='let game of gameData' class="game">
-    <a href="">
+    <a [routerLink]='game.contentPath ?? "."'>
       <img [src]='game.thumbnail ?? "/assets/game-thumbnails/wip.png"'
         [alt]='game.title'/>
     </a>
