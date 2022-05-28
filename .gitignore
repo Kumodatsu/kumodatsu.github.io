@@ -1,0 +1,17 @@
+# IDE files
+.vscode/
+
+# Angular
+npm-debug.log
+yarn-error.log
+testem.log
+site/node_modules/
+site/.angular/cache/
+.sass-cache/
+site/connect.lock
+site/coverage
+site/libpeerconnection.log
+site/typings
+
+.DS_Store
+Thumbs.db
