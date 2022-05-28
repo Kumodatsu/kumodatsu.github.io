@@ -22,6 +22,7 @@ const gameData: GameData[] = [
     title:     "Hotel Pluhz",
     year:      2019,
     thumbnail: "/assets/game-thumbnails/hotel-pluhz.png",
+    contentPath: "/games/hotel-pluhz",
   },
   {
     title:     "Rolling Game",
