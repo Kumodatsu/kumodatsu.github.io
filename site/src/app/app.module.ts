@@ -9,6 +9,12 @@ import { GamesListComponent } from './games-list/games-list.component';
 import { HotelPluhzComponent } from './games/hotel-pluhz/hotel-pluhz.component';
 import { LinkButtonComponent } from './link-button/link-button.component';
 import { DonTetronolisTetrisComponent } from './games/don-tetronolis-tetris/don-tetronolis-tetris.component';
+import { ADreamWithinADreamComponent } from './games/a-dream-within-a-dream/a-dream-within-a-dream.component';
+import { PollyComponent } from './games/polly/polly.component';
+import { ADreamWithinADreamRemasteredComponent } from './games/a-dream-within-a-dream-remastered/a-dream-within-a-dream-remastered.component';
+import { RollingGameComponent } from './games/rolling-game/rolling-game.component';
+import { WASDComponent } from './games/wasd/wasd.component';
+import { StairComponent } from './games/stair/stair.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { DonTetronolisTetrisComponent } from './games/don-tetronolis-tetris/don-
     GamesListComponent,
     HotelPluhzComponent,
     LinkButtonComponent,
-    DonTetronolisTetrisComponent
+    DonTetronolisTetrisComponent,
+    ADreamWithinADreamComponent,
+    PollyComponent,
+    ADreamWithinADreamRemasteredComponent,
+    RollingGameComponent,
+    WASDComponent,
+    StairComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ const gameData: GameData[] = [
     title:     "A Dream within a Dream",
     year:      2015,
     thumbnail: "/assets/game-thumbnails/dream.png",
+    contentPath: "/games/a-dream-within-a-dream",
   },
   {
     title:     "Don Tetronoli's Tetris",
@@ -18,6 +19,7 @@ const gameData: GameData[] = [
     title:     "Polly",
     year:      2017,
     thumbnail: "/assets/game-thumbnails/polly.png",
+    contentPath: "/games/polly",
   },
   {
     title:     "Hotel Pluhz",
@@ -29,21 +31,25 @@ const gameData: GameData[] = [
     title:     "Rolling Game",
     year:      2021,
     thumbnail: "/assets/game-thumbnails/rolling.png",
+    contentPath: "/games/rolling-game",
   },
   {
     title:     "A Dream within a Dream Remastered",
     year:      2021,
     thumbnail: "/assets/game-thumbnails/dream-remastered.png",
+    contentPath: "/games/a-dream-within-a-dream-remastered",
   },
   {
     title:     "Stair",
     year:      "TBA",
     thumbnail: "/assets/game-thumbnails/stair.png",
+    contentPath: "/games/stair",
   },
   {
     title:     "WASD",
     year:      "TBA",
     thumbnail: "/assets/game-thumbnails/wasd.png",
+    contentPath: "/games/wasd",
   },
 ]
 
