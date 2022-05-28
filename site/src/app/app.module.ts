@@ -12,7 +12,7 @@ import { GamesListComponent } from './games-list/games-list.component';
     AppComponent,
     MainComponent,
     NavigationComponent,
-    GamesListComponent
+    GamesListComponent,
   ],
   imports: [
     BrowserModule,
