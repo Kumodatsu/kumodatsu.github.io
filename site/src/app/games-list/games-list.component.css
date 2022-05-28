@@ -1,0 +1,23 @@
+.game {
+  width:   256px;
+  height:  384px;
+  display: block;
+  float:   left;
+  margin:  0px 25px 50px 25px;
+}
+
+.game img {
+  width:  256px;
+  height: 256px;
+}
+
+.game img:hover {
+  cursor: pointer;
+}
+
+.game .game-info {
+  padding:    2px 16px;
+  margin:     none;
+  text-align: center;
+  font-size:  16px;
+}
