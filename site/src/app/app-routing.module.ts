@@ -12,7 +12,7 @@ import { WASDComponent } from "./games/wasd/wasd.component"
 import { MainComponent } from "./main/main.component"
 
 const routes: Routes = [
-  { path: "", redirectTo: "/main", pathMatch: "full" },
+  { path: "", redirectTo: "/games", pathMatch: "full" },
 
   { path: "main",  component: MainComponent },
   { path: "games", component: GamesListComponent },
