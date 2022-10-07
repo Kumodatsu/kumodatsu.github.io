@@ -12,10 +12,8 @@ import { WASDComponent } from "./games/wasd/wasd.component"
 import { MainComponent } from "./main/main.component"
 
 const routes: Routes = [
-  { path: "", redirectTo: "/main", pathMatch: "full" },
-
+  { path: "", component: GamesListComponent },
   { path: "main",  component: MainComponent },
-  { path: "games", component: GamesListComponent },
   { path: "games/a-dream-within-a-dream",
   component: ADreamWithinADreamComponent },
   { path: "games/don-tetronolis-tetris",
